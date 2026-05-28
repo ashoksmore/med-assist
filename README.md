@@ -1,43 +1,53 @@
-# Med Assist
+# MedAssist
 
-Starter README for the `med-assist` project.
+MedAssist is a hackathon prototype for improving patient follow-through after a visit.
+It transforms a synthetic clinical note into:
 
-## Overview
+- a plain-language summary,
+- a prioritized action checklist, and
+- a personalized "Visit Question Card" for the next clinician conversation.
 
-`med-assist` is intended to be a healthcare-focused assistant application.  
-Use this file to document goals, architecture, setup, and usage as the project evolves.
+This repository currently contains submission-ready documentation artifacts for the
+athenahealth hackathon track: **Improve Patient Experience**.
 
-## Getting Started
+## Repository Contents
 
-1. Clone the repository.
-2. Add your project code and dependencies.
-3. Update this README with exact setup steps once the stack is finalized.
+- `caresteps-team-proposal-draft.md` - team proposal draft
+- `caresteps-final-submission-draft.md` - final submission draft
+- `caresteps-use-cases-and-metrics.md` - judge-facing problem/use case/metrics narrative
+- `evaluation-protocol.md` - pilot scoring protocol and rubric
 
-## Development
+## Project Scope (Current)
 
-- Add local setup instructions here.
-- Add run/build/test commands here.
-- Add environment variable requirements here.
+- Uses synthetic case data only (Synthea-style notes)
+- No PHI ingestion
+- Human review gate before patient-facing output
+- Focus on understanding/readiness metrics rather than long-term clinical outcomes
 
-## Project Structure
+## Evaluation Approach
 
-Document key folders and their purpose, for example:
+Primary KPI:
+- Task comprehension accuracy (%), measured with a gold checklist in a small
+  within-subject pilot.
 
-- `src/` - application source code
-- `tests/` - test suites
-- `docs/` - project documentation
+Secondary KPIs:
+- Question coverage score (%)
+- Question usefulness rating (1-5)
+- Unsupported claim rate (%)
+- Time to readiness (seconds)
 
-## Roadmap
+See `evaluation-protocol.md` for full methodology, score sheet, and reporting format.
 
-- [ ] Define core feature set
-- [ ] Set up initial project scaffold
-- [ ] Implement first end-to-end workflow
+## Status
+
+This repo is currently documentation-first and hackathon-focused.
+Implementation code can be added in a future phase.
 
 ## Contributing
 
-1. Create a feature branch.
-2. Make focused changes.
-3. Open a pull request with testing notes.
+1. Open an issue or proposal note describing the change.
+2. Keep edits focused and easy to review.
+3. For methodology changes, update all related docs for consistency.
 
 ## License
 

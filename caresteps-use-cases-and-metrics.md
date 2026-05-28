@@ -1,10 +1,10 @@
-# CareSteps: Problem Statement, Use Cases, and Metrics
+# MedAssist: Problem Statement, Use Cases, and Metrics
 
 ## 1) Judge-ready problem statement
 
 Patients often leave visits with instructions written in clinical language. They may not fully understand medication changes, follow-up steps, or warning signs, and they frequently forget what to ask at the next visit. This leads to poor follow-through and lower adherence.
 
-Our prototype, **CareSteps**, improves this workflow by converting synthetic visit notes into:
+Our prototype, **MedAssist**, improves this workflow by converting synthetic visit notes into:
 - a plain-language summary,
 - a clear action checklist, and
 - a personalized "Questions to Ask Your Clinician" list that patients can bring to the next encounter.
@@ -49,7 +49,7 @@ The goal is to improve patient understanding and readiness to act, especially ac
 
 - One demo flow from note input to final output.
 - Three synthetic patient examples (young/adult/senior).
-- Before/after view: raw note vs CareSteps output.
+- Before/after view: raw note vs MedAssist output.
 - Human review step (Approve/Edit) before final patient view.
 - Download/copy "Visit Question Card."
 - One metric slide with pilot results.
@@ -72,7 +72,7 @@ Method:
 - 5-person pilot, within-subject.
 - Each participant reviews both:
   - Condition A: raw clinical note (before)
-  - Condition B: CareSteps output (after)
+  - Condition B: MedAssist output (after)
 - Same 3 fixed questions, same synthetic case facts.
 
 ## Secondary KPIs
@@ -123,4 +123,4 @@ Unsupported Claim Rate = (unsupported items / total generated items) * 100
 
 ## 7) One-paragraph script for judges
 
-CareSteps helps patients understand and act on visit instructions. We convert a synthetic clinical note into a plain-language summary, an action checklist, and a personalized question card patients can bring to their next visit. To evaluate impact without historical production data, we run a within-subject pilot comparing raw notes vs our output on the same cases. Our primary metric is task comprehension accuracy; secondary metrics include question coverage, usefulness, unsupported claim rate, and time to readiness. This demonstrates practical value, safety, and measurable workflow improvement in one day.
+MedAssist helps patients understand and act on visit instructions. We convert a synthetic clinical note into a plain-language summary, an action checklist, and a personalized question card patients can bring to their next visit. To evaluate impact without historical production data, we run a within-subject pilot comparing raw notes vs our output on the same cases. Our primary metric is task comprehension accuracy; secondary metrics include question coverage, usefulness, unsupported claim rate, and time to readiness. This demonstrates practical value, safety, and measurable workflow improvement in one day.

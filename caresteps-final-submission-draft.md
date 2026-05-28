@@ -6,7 +6,7 @@ Members: [TBD]
 
 Track: Improve Patient Experience
 
-Project title: CareSteps - Age-Aware Plain Summary and Question Card
+Project title: MedAssist - Age-Aware Plain Summary and Question Card
 
 ## Problem Statement
 
@@ -14,7 +14,7 @@ Patients often receive follow-up instructions in language that is difficult to u
 
 ## Solution Summary
 
-CareSteps converts a synthetic clinical note into:
+MedAssist converts a synthetic clinical note into:
 - a plain-language summary,
 - a prioritized action checklist, and
 - a personalized list of probable questions the patient can ask their clinician.

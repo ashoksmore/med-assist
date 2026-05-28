@@ -6,7 +6,7 @@ Members: [TBD]
 
 Track: Improve Patient Experience
 
-Project title: CareSteps - Age-Aware Plain Summary and Question Card
+Project title: MedAssist - Age-Aware Plain Summary and Question Card
 
 ## Problem
 
@@ -31,7 +31,7 @@ What we will build:
 
 What we will demo:
 - 3 synthetic cases (young adult, adult, senior).
-- Before/after comparison: raw note vs CareSteps output.
+- Before/after comparison: raw note vs MedAssist output.
 - Human reviewer approve/edit step before final patient view.
 - One evaluation slide with pilot metrics.
 - Workflow fit for post-visit patient communication.

@@ -1,4 +1,4 @@
-# CareSteps — Evaluation Protocol (Pilot)
+# MedAssist — Evaluation Protocol (Pilot)
 
 Use this document to answer judges: **what metric, how measured, and what “correct” looks like.**
 
