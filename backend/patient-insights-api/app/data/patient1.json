@@ -1,0 +1,30 @@
+{
+  "patient_id": "P-10293",
+  "name": "Jane Doe",
+  "age": 54,
+  "gender": "Female",
+  "visit_reason": "Follow-up for poorly controlled type 2 diabetes and new-onset chest tightness on exertion",
+  "vitals": {
+    "blood_pressure": "148/92",
+    "heart_rate": 84,
+    "bmi": 31.2,
+    "temperature_f": 98.6
+  },
+  "conditions": [
+    "Type 2 diabetes mellitus",
+    "Hypertension",
+    "Hyperlipidemia"
+  ],
+  "medications": [
+    { "name": "Metformin", "dose": "1000 mg", "frequency": "twice daily" },
+    { "name": "Lisinopril", "dose": "20 mg", "frequency": "once daily" },
+    { "name": "Atorvastatin", "dose": "40 mg", "frequency": "once daily" }
+  ],
+  "lab_results": [
+    { "test": "HbA1c", "value": 8.9, "unit": "%", "reference": "< 7.0" },
+    { "test": "LDL", "value": 142, "unit": "mg/dL", "reference": "< 100" },
+    { "test": "eGFR", "value": 68, "unit": "mL/min/1.73m2", "reference": "> 60" }
+  ],
+  "allergies": ["Penicillin"],
+  "notes": "Patient reports occasional chest tightness with stair climbing over the past two weeks. Adherent to medications. Sedentary lifestyle."
+}

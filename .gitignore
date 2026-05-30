@@ -1,0 +1,4 @@
+.DS_Store
+*.backup.pptx
+__pycache__/
+.env
